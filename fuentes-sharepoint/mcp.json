@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "fuentes-sharepoint": {
+      "url": "https://sharepoint-mcp.happyforest-8dae0169.southcentralus.azurecontainerapps.io/mcp",
+      "auth": {
+        "CLIENT_ID": "96a5c915-f7b3-42ea-a84e-6d1ec90a5a7d",
+        "CLIENT_SECRET": "${SP_MCP_CLIENT_SECRET}",
+        "scopes": ["api://754a4623-1a67-480b-aacf-3a1635a157c8/access_as_user", "offline_access"]
+      }
+    }
+  }
+}
