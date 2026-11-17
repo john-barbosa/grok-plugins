@@ -1,0 +1,18 @@
+{
+  "name": "fuentes-sharepoint",
+  "displayName": "Fuentes SharePoint",
+  "version": "0.3.1",
+  "description": "The Fuentes Firm's SharePoint connector for the Dataverse and PI Defense Team sites: browse, search, upload, edit in place, copy, move, and delete with confirmation. Each person signs in as themselves.",
+  "author": { "name": "The Fuentes Firm" },
+  "keywords": ["sharepoint", "microsoft 365", "documents", "upload"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SP_MCP_CLIENT_SECRET": {
+        "type": "string",
+        "description": "Client secret for the 'Fuentes SharePoint MCP (Grok client)' Entra app. Set by a team admin; never commit it."
+      }
+    },
+    "required": ["SP_MCP_CLIENT_SECRET"]
+  }
+}
