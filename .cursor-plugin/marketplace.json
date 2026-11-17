@@ -1,0 +1,7 @@
+{
+  "name": "fuentes-firm-custom-plugins",
+  "owner": { "name": "The Fuentes Firm" },
+  "plugins": [
+    { "name": "fuentes-sharepoint", "source": "fuentes-sharepoint" }
+  ]
+}
