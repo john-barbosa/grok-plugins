@@ -1,7 +1,7 @@
 {
   "name": "fuentes-teams",
   "displayName": "Fuentes Teams",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "The Fuentes Firm's Teams connector: find attorney teams, channels and chats, read messages, download attached files straight from Microsoft to the bot's computer, and (with a preview-then-confirm step) start chats, send chat messages and post or reply in channels. Each person signs in as themselves. It never sends to anyone outside the firm (guests and external accounts are refused by the server).",
   "author": {
     "name": "The Fuentes Firm"
