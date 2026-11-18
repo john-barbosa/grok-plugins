@@ -1,0 +1,18 @@
+{
+  "name": "fuentes-outlook",
+  "displayName": "Fuentes Outlook",
+  "version": "0.4.0",
+  "description": "Read-only Outlook connector for The Fuentes Firm: find emails in your own mailbox, read full message bodies, and download attachments of any size straight from Microsoft to the bot's computer. Each person signs in as themselves.",
+  "author": { "name": "The Fuentes Firm" },
+  "keywords": ["outlook", "email", "attachments", "microsoft 365"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "MAIL_MCP_CLIENT_SECRET": {
+        "type": "string",
+        "description": "Client secret for the 'Fuentes Outlook MCP (Grok client)' Entra app. Set by a team admin; never commit it."
+      }
+    },
+    "required": ["MAIL_MCP_CLIENT_SECRET"]
+  }
+}
