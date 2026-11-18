@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "fuentes-outlook": {
+      "url": "https://sharepoint-mcp.happyforest-8dae0169.southcentralus.azurecontainerapps.io/mail/mcp",
+      "auth": {
+        "CLIENT_ID": "ba7c3091-da92-41f1-b135-da2ee247ce2f",
+        "CLIENT_SECRET": "${MAIL_MCP_CLIENT_SECRET}",
+        "scopes": ["api://37b2c904-3576-4cdb-a558-7e8ce2077f05/access_as_user", "offline_access"]
+      }
+    }
+  }
+}
