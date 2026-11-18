@@ -1,0 +1,18 @@
+{
+  "name": "fuentes-teams",
+  "displayName": "Fuentes Teams",
+  "version": "0.4.0",
+  "description": "Read-only Teams connector for The Fuentes Firm: find attorney teams, channels and chats, read messages, and download files attached to chat and channel messages straight from Microsoft to the bot's computer. Each person signs in as themselves.",
+  "author": { "name": "The Fuentes Firm" },
+  "keywords": ["teams", "chat", "attachments", "microsoft 365"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "TEAMS_MCP_CLIENT_SECRET": {
+        "type": "string",
+        "description": "Client secret for the 'Fuentes Teams MCP (Grok client)' Entra app. Set by a team admin; never commit it."
+      }
+    },
+    "required": ["TEAMS_MCP_CLIENT_SECRET"]
+  }
+}
