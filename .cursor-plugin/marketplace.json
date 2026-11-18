@@ -2,6 +2,8 @@
   "name": "fuentes-firm-custom-plugins",
   "owner": { "name": "The Fuentes Firm" },
   "plugins": [
-    { "name": "fuentes-sharepoint", "source": "fuentes-sharepoint" }
+    { "name": "fuentes-sharepoint", "source": "fuentes-sharepoint" },
+    { "name": "fuentes-outlook", "source": "fuentes-outlook" },
+    { "name": "fuentes-teams", "source": "fuentes-teams" }
   ]
 }
